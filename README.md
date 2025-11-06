@@ -19,28 +19,19 @@ Then it moves each file into the right folder automatically.
 Before running:
 
 ex folder for automatic file sorter/
-│
-├── bow.webp
-├── ICT22952_Lab01_CS.pdf
-├── ICT22952_Magazine innerpages.png
-├── report.xlsx
+
+bow.webp
+ICT22952_Lab01_CS.pdf
+ICT22952_Magazine innerpages.png
+report.xlsx
 
 
 After running:
 
-ex folder for automatic file sorter/
-│
-├── excel files/
-│   └── report.xlsx
-│
-├── image files/
-│   └── ICT22952_Magazine innerpages.png
-│
-├── pdf files/
-│   └── ICT22952_Lab01_CS.pdf
-│
-├── webp files/
-│   └── bow.webp
+excel file goes to new folder,
+image file goes to new folder,
+pdf file goes to new folder,
+webp file goes to new folder
 
 🧠 Requirements
 
@@ -83,6 +74,9 @@ Done! Your files will be sorted automatically.
 ✨ Features
 
 ✅ Automatically creates folders if they don’t exist
+
 ✅ Moves files into the right folders
+
 ✅ Simple and easy to customize
+
 ✅ No need for manual sorting
